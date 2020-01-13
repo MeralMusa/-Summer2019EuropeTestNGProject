@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class DDFWithDataProvider {
 
-    @DataProvider
+    @DataProvider (name ="testData")
     public Object[][] testData(){
         String [][] data = {
                 {"GoT","9"},
